@@ -6,14 +6,13 @@ let lateral = document.querySelector('.divisao1Right');
 let numeros = document.querySelector('.divisao1-3');
 
 let etapaAtual = 0;
-let numero = '';
 
 function comecarEtapa() {
     let etapa = etapas[etapaAtual];
 
     let numeroHtml = '';
 
-    for (let i=0;i<etapa.numeros; i++) {
+    for(let i=0;i<etapa.numeros;i++) {
         numeroHtml += '<div class="numero"></div>';
     }
 
@@ -24,11 +23,6 @@ function comecarEtapa() {
     lateral.innerHTML = '';
     numeros.innerHTML = numeroHtml;
 }
-
-function atualizaInterface() {
-
-}
-
 
 function clicou(n) {
     let elNumero = document.querySelector('.numero.pisca');
