@@ -13,12 +13,12 @@ function comecarEtapa() {
 
     let numeroHtml = '';
 
-    for (let i=0;i<etapa.numeros; i++) {
-        numeroHtml += '<div class=numero"></div>'
+    for (let i=0;i<etapas.numeros; i++) {
+        numeroHtml += '<div class="numero"></div>';
     }
 
     seuVotoPara.style.display = 'none';
-    cargo.innerHTML = etapa.titulo;
+    cargo.innerHTML = etapas.titulo;
     descricao.innerHTML = '';
     aviso.style.display = 'none';
     lateral.innerHTML = '';
