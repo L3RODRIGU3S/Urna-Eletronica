@@ -13,7 +13,7 @@ function comecarEtapa() {
 
     let numeroHtml = '';
 
-    for (let i = 0; i < etapa.numeros; i++) {
+    for (let i=0;i<etapa.numeros; i++) {
         numeroHtml += '<div class=numero"></div>'
     }
 
