@@ -1,4 +1,4 @@
-let etapa = [
+let etapas = [
     {
         titulo: 'VEREADOR',
         numero: 5,

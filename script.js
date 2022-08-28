@@ -9,7 +9,7 @@ let etapaAtual = 0;
 let numero = '';
 
 function comecarEtapa() {
-    let etapa = etapa[etapaAtual];
+    let etapas = etapas[etapaAtual];
 
     let numeroHtml = '';
 
