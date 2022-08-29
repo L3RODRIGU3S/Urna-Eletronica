@@ -29,7 +29,7 @@ let etapas = [
         candidatos: [
             {
                 numero: '99',
-                nome: 'Amigo da Quebrada',
+                nome: 'Tuco da Quebrada',
                 partido: 'Patinhas da ZL',
                 vice: 'Cleitinho',
                 fotos: [
