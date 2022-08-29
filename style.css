@@ -65,7 +65,7 @@ body {
     background-color: white;
     color: black;
     font-size: 15px;
-    width: 70px;
+    width: 80px;
     height: 40px;
 }
 
@@ -73,7 +73,7 @@ body {
     background-color: #F09046;
     color: black;
     font-size: 15px;
-    width: 70px;
+    width: 80px;
     height: 40px;
 }
 
@@ -161,7 +161,7 @@ body {
     background-color: white;
     text-align: center;
     font-size: 11px;
-    padding: 4px;
+    margin-top: 10px;
 }
 
 .divisao2 {
