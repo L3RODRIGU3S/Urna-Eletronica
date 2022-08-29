@@ -24,6 +24,7 @@ body {
     background-color: #dbd5c9;
     padding: 30px;
     display: flex;
+    margin-top: 100px;
 }
 
 .tela {
@@ -160,6 +161,7 @@ body {
     background-color: white;
     text-align: center;
     font-size: 11px;
+    padding: 4px;
 }
 
 .divisao2 {
@@ -167,4 +169,28 @@ body {
     font-size: 14px;
     border-top: 2px solid black;
     padding-left: 10px;
+}
+
+.aviso-grande {
+    font-size: 30px;
+    font-weight: bold;
+    color:red;
+}
+
+.aviso-gigante {
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auxilio {
+    background-color: #dbd5c9;
+    padding: 10px;
+    position:relative;
+    bottom: 30px;
+    margin-left: 30px;
+    margin-top: 145px;
 }
